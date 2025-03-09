@@ -19,7 +19,14 @@ Inspiration:
   - Hero section
   - Selections
 - Products page
-- Checkout
+  - Pastries
+  - Sandwiches
+  - Breads
+  - Beverages
+- Authentication
+  - Login
+  - Sign-up
+- Checkout page
 
 ## Product Categories
 
@@ -46,7 +53,8 @@ Products:
 
 Categories:
 
-| Method | Path     | Description            | Status         |
-| ------ | -------- | ---------------------- | -------------- |
-| GET    | `/`      | Get all categories     | 200: `[]`      |
-| GET    | `/:slug` | Get a category by slug | 200: `{}`, 404 |
+| Method | Path | Description        | Status    |
+| ------ | ---- | ------------------ | --------- |
+| GET    | `/`  | Get all categories | 200: `[]` |
+
+| GET | `/:slug` | Get a category by slug | 200: `{}`, 404 |
