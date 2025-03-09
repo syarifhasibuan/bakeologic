@@ -2,41 +2,51 @@
 
 ## Links
 
-- Website/Frontend: https://chez.syarifhasibuan.com/
-- Backend: https://chez-api.syarifhasibuan.com/
-- Repositories:
-  - General: https://github.com/chez-syarif
-  - Frontend: https://github.com/chez-syarif-frontend
+- Frontend Web: https://chez.syarifhasibuan.com
+- Backend API: https://chez-api.syarifhasibuan.com
 
-Inspiration:
+Repositories:
 
-- https://www.paul.fr/
-- https://www.paul-indonesia.co.id/
+- General: https://github.com/syarifhasibuan/chez-syarif
+- Frontend Web: https://github.com/syarifhasibuan/chez-syarif-frontend
+- Backend API: https://github.com/syarifhasibuan/chez-syarif-backend
+
+Inspirations:
+
+- https://paul.fr
+- https://paul-indonesia.co.id
 
 ## Features
 
-- Home page
-  - Hero section
-  - Selections
-- Products page
-  - Pastries
-  - Sandwiches
+- Home
+  - Hero
+  - Featured Selections
+- Products List
+  - Product Item
+    - Images
+    - Name
+    - Price
+    - SKU
+    - Add to Cart
+    - Description
+    - Stock Quantity
+- Product Categories
   - Breads
+  - Pastries
+  - Mini-Pastries
   - Beverages
-- Authentication
-  - Login
-  - Sign-up
-- Checkout page
-
-## Product Categories
-
-- Breads
-- Pastries
-- Mini-Pastries
-- Beverages
-- Sandwiches
+  - Sandwiches
+- Authentication/Authorization
+  - Sign Up
+  - Log In
+  - Log Out
+- Shopping Cart
+- Checkout
+  - Shipping Address
 
 ## UI Design
+
+Figma: ...
 
 ## Entity Relationship Diagram (ERD)
 
@@ -44,17 +54,16 @@ Inspiration:
 
 ## REST API Endpoints
 
-Products:
+Products: `/products`
 
 | Method | Path     | Description           | Status         |
 | ------ | -------- | --------------------- | -------------- |
 | GET    | `/`      | Get all products      | 200: `[]`      |
 | GET    | `/:slug` | Get a product by slug | 200: `{}`, 404 |
 
-Categories:
+Categories: `/categories`
 
-| Method | Path | Description        | Status    |
-| ------ | ---- | ------------------ | --------- |
-| GET    | `/`  | Get all categories | 200: `[]` |
-
-| GET | `/:slug` | Get a category by slug | 200: `{}`, 404 |
+| Method | Path     | Description            | Status         |
+| ------ | -------- | ---------------------- | -------------- |
+| GET    | `/`      | Get all categories     | 200: `[]`      |
+| GET    | `/:slug` | Get a category by slug | 200: `{}`, 404 |
