@@ -17,6 +17,8 @@ Inspiration:
 
 - Home page
   - Hero section
+  - Selections
+- Products page
 - Checkout
 
 ## Product Categories
@@ -26,3 +28,25 @@ Inspiration:
 - Mini-Pastries
 - Beverages
 - Sandwiches
+
+## UI Design
+
+## Entity Relationship Diagram (ERD)
+
+![ERD](diagrams/erd.svg)
+
+## REST API Endpoints
+
+Products:
+
+| Method | Path     | Description           | Status         |
+| ------ | -------- | --------------------- | -------------- |
+| GET    | `/`      | Get all products      | 200: `[]`      |
+| GET    | `/:slug` | Get a product by slug | 200: `{}`, 404 |
+
+Categories:
+
+| Method | Path     | Description            | Status         |
+| ------ | -------- | ---------------------- | -------------- |
+| GET    | `/`      | Get all categories     | 200: `[]`      |
+| GET    | `/:slug` | Get a category by slug | 200: `{}`, 404 |
