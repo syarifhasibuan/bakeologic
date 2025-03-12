@@ -1,15 +1,15 @@
-# Chez Syarif
+# Bakeologic
 
 ## Links
 
-- Frontend Web: https://chez.syarifhasibuan.com
-- Backend API: https://chez-api.syarifhasibuan.com
+- Frontend Web: https://bakeologic.syarifhasibuan.com
+- Backend API: https://bakeologic-api.syarifhasibuan.com
 
 Repositories:
 
-- General: https://github.com/syarifhasibuan/chez-syarif
-- Frontend Web: https://github.com/syarifhasibuan/chez-syarif-frontend
-- Backend API: https://github.com/syarifhasibuan/chez-syarif-backend
+- General: https://github.com/syarifhasibuan/bakeologic
+- Frontend Web: https://github.com/syarifhasibuan/bakeologic-web
+- Backend API: https://github.com/syarifhasibuan/bakeologic-api
 
 Inspirations:
 
