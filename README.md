@@ -47,6 +47,12 @@ Inspirations:
 
 ## UI Design
 
+### Wireframe
+
+![Wireframe Home Page](design/wireframe.png)
+
+### Figma
+
 Figma: ...
 
 ## Entity Relationship Diagram (ERD)
