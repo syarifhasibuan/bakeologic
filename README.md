@@ -15,6 +15,7 @@ Inspirations:
 
 - https://paul.fr
 - https://paul-indonesia.co.id
+- https://la-petitemarquise.fr/
 
 ## Features
 
