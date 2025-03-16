@@ -47,13 +47,9 @@ Inspirations:
 
 ## UI Design
 
-### Wireframe
+### Home page
 
-![Wireframe Home Page](design/wireframe.png)
-
-### Figma
-
-Figma: ...
+![Home Page](design/figma-home.jpg)
 
 ## Entity Relationship Diagram (ERD)
 
@@ -67,6 +63,7 @@ Products: `/products`
 | ------ | -------- | --------------------- | -------------- |
 | GET    | `/`      | Get all products      | 200: `[]`      |
 | GET    | `/:slug` | Get a product by slug | 200: `{}`, 404 |
+| POST   | `/`      | Create a product      | 201: `{}`      |
 
 Categories: `/categories`
 
