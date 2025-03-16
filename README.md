@@ -4,6 +4,7 @@
 
 - Frontend Web: https://bakeologic.syarifhasibuan.com
 - Backend API: https://bakeologic-api.syarifhasibuan.com
+- Figma: https://figma.com/design/dD5LKpOrQkhrb2q8Wsf7Yl/Bakeologic
 
 Repositories:
 
@@ -49,7 +50,11 @@ Inspirations:
 
 ### Home page
 
-![Home Page](design/figma-home.jpg)
+![Home](design/home.jpg)
+
+![Products](design/products.jpg)
+
+![Cart](design/cart.jpg)
 
 ## Entity Relationship Diagram (ERD)
 
